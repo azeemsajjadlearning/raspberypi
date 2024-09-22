@@ -1,0 +1,29 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# If you're using virtualenv
+venv/
+env/
+ENV/
+.Venv/
+.venv/
+
+# If you're using pipenv
+Pipfile.lock
+
+# Ignore macOS folder files
+.DS_Store
+
+# Ignore compiled translations
+*.mo
+
+# Ignore static and media files
+/staticfiles/
+/mediafiles/
+
+/node_modules/
